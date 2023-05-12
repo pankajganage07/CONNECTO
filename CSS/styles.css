@@ -1,0 +1,150 @@
+:root{
+   --primarycolor:  #4D8B31;
+   --secondarycolor: #FFC800;
+   --orange1: #FF8427;
+   --text1: #202020;
+   --background1: #FFFFFF;
+}
+
+
+body{
+    background-color: var(--background1);
+    margin: 0px;
+    font-family: 'Source Sans Pro', sans-serif;
+    font-style: normal;
+    font-weight: 700;
+}
+
+.container1{
+    background-color: var(--orange1);
+    color: #FFFFFF;
+    padding: 7%;
+    text-align: left;
+}
+
+.mini_container1{
+    
+    padding: 20px;
+}
+
+.mini_container_item{
+    display: inline-block;
+    margin: 0%;
+    position: relative;
+    bottom: 15px;
+    
+    
+}
+
+.mini_container_btn{
+    float: right;
+}
+
+.icon{
+    width: 50px;
+    height: 50px;
+}
+
+.create_btn{
+    width: 161px;
+    height: 47px;
+
+/* Accent */
+
+background: #4D8B31;
+border-radius: 8px;
+
+margin: 5px 10px;
+
+}
+
+.explore_btn{
+    width: 177px;
+    height: 47px;
+
+/* Background */
+
+    background: #FFFFFF;
+    border-radius: 8px;
+
+    margin: 5px 10px;
+}
+
+.mini_container2{
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.container2{
+    text-align: center;
+    padding: 10% 5%;
+
+    /* display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    flex-grow: 1; */
+}
+
+.cnt2_min_cnt2{
+    /* display: flex;
+    justify-content: space-between; */
+    /* Frame 14 */
+
+
+/* Auto layout */
+
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    padding: 0px 10px;
+    gap: 72px;
+
+    
+
+
+    /* Inside auto layout */
+
+    flex: none;
+    order: 1;
+    align-self: stretch;
+    flex-grow: 0;
+}
+
+
+.card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 32px;
+    gap: 32px;
+    
+    width: 345.33px;
+    height: 250px;
+    
+    /* Background */
+    
+    background: #FFFFFF;
+    box-shadow: 0px 24px 22px rgba(0, 0, 0, 0.1);
+    border-radius: 24px;
+    
+    /* Inside auto layout */
+    
+    flex: none;
+    order: 2;
+    align-self: stretch;
+    flex-grow: 1;
+
+}
+
+.container3{
+    align-items: center;
+    text-align: center;
+}
+
+
+
+footer{
+    background-color: var(--primarycolor);
+}
