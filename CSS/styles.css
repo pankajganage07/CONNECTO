@@ -10,16 +10,38 @@
 body{
     background-color: var(--background1);
     margin: 0px;
-    font-family: 'Source Sans Pro', sans-serif;
+    font-family: 'Source Sans Pro';
     font-style: normal;
     font-weight: 700;
 }
 
 .container1{
     background-color: var(--orange1);
+    /* background: url(images/background_img.png); */
+    background: linear-gradient(to bottom right, #FF8427, #FF8427, #FFC800, #FF8427);
+    
+
     color: #FFFFFF;
     padding: 7%;
     text-align: left;
+
+    padding-bottom: 0px;
+}
+
+.container1 h1{
+    font-size: 64px;
+    line-height: 80px;
+}
+
+#collaborate {
+    color: #760E0E;
+}
+
+.container1 p{
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 36px;
+
 }
 
 .mini_container1{
@@ -49,12 +71,19 @@ body{
     width: 161px;
     height: 47px;
 
-/* Accent */
 
-background: #4D8B31;
-border-radius: 8px;
+    background: #4D8B31;
+    border-radius: 8px;
 
-margin: 5px 10px;
+    margin: 5px 10px;
+
+    font-family: 'Source Sans Pro';
+    font-style: normal;
+    font-weight: 700;
+    color: #FFFFFF;
+
+    border: none;
+    
 
 }
 
@@ -68,6 +97,13 @@ margin: 5px 10px;
     border-radius: 8px;
 
     margin: 5px 10px;
+
+    font-family: 'Source Sans Pro';
+    font-style: normal;
+    font-weight: 700;
+    color: #202020;
+
+    border: none;
 }
 
 .mini_container2{
@@ -145,6 +181,62 @@ margin: 5px 10px;
 
 
 
-footer{
-    background-color: var(--primarycolor);
+/* footer styles -- updated by vaibhav */
+.container {
+    background: linear-gradient(to right, green, #aef08f); /* Replace with your desired gradient colors */
+    height: 300px;
+    width: 1400px;
+    position: relative;
+}
+
+.line {
+    width: 1200px;
+    height: 1px;
+    background-color: #ffffff; /* Replace with your desired line color */
+    position: absolute;
+    bottom: 39%; /* Adjust the position of the line vertically as needed */
+    left: 8%;
+    transform: translateY(50%);
+}
+
+.words {
+    position: absolute;
+    bottom: 55%; /* Adjust the position of the words vertically as needed */
+    transform: translateY(-50%);
+    left: 50%;
+    transform: translateX(-50%);
+    text-align: center;
+}
+
+.words span {
+    margin-right: 55px; /* Adjust the distance between words as needed */
+    font-size: 18px; /* Replace with your desired font size */
+    font-family: 'Source Sans Pro';
+    font-style: normal;
+    color: #ffffff; /* Replace with your desired font color */
+}
+
+.different-word {
+    position: absolute;
+    bottom: 45%; /* Adjust the position of the different word vertically as needed */
+    left: 190px; /* Adjust the distance of the different word from the leftmost side */
+    transform: translateY(-50%);
+    font-size: 39px; /* Replace with your desired font size */
+    font-family: 'Source Sans Pro';
+    font-style: normal;
+    font-weight: bold;
+    color: #ffffff; /* Replace with your desired font color */
+}
+
+.social-logos {
+    position: absolute;
+    bottom: 50%; /* Adjust the position of the social media logos vertically as needed */
+    right: 20px; /* Adjust the distance of the social media logos from the right side */
+    transform: translateY(-50%);
+    display: flex;
+}
+
+.social-logos img {
+    width: 30px; /* Adjust the width of the social media logos as needed */
+    margin-right: 50px; /* Adjust the distance between the social media logos as needed */
 }
