@@ -115,12 +115,34 @@ body{
 .container2{
     text-align: center;
     padding: 10% 5%;
+    align-items: center;
+    text-align: center;
 
     /* display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
     flex-grow: 1; */
+}
+
+.p1 {
+    width: 993px;
+    height: 54px;
+
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 150%;
+    /* or 27px */
+
+    text-align: center;
+    margin: auto;
+
+    /* Text */
+
+    color: #202020;
+
+    padding-bottom: 40px;
+
 }
 
 .cnt2_min_cnt2{
@@ -136,6 +158,7 @@ body{
     align-items: flex-start;
     padding: 0px 10px;
     gap: 72px;
+    padding-bottom: 35px;
 
     
 
@@ -149,12 +172,13 @@ body{
 }
 
 
+
 .card {
     display: flex;
     flex-direction: column;
     align-items: center;
     padding: 32px;
-    gap: 32px;
+    /* gap: 32px; */
     
     width: 345.33px;
     height: 250px;
@@ -174,11 +198,31 @@ body{
 
 }
 
+.cnt2_min_cnt2 p{
+
+    width: 281.33px;
+    height: 48px;
+
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 150%;
+    /* or 24px */
+
+    text-align: center;
+
+    /* Text */
+
+    color: #202020;
+}
+
 .container3{
     align-items: center;
     text-align: center;
 }
 
+.mid_img{
+    padding-bottom: 30px;
+}
 
 
 /* footer styles -- updated by vaibhav */
@@ -187,6 +231,7 @@ body{
     height: 300px;
     width: 1400px;
     position: relative;
+    left: 40px;
 }
 
 .line {
@@ -240,3 +285,7 @@ body{
     width: 30px; /* Adjust the width of the social media logos as needed */
     margin-right: 50px; /* Adjust the distance between the social media logos as needed */
 }
+
+
+/* update 2 */
+

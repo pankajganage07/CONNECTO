@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Multiple Words on the Same Line</title>
+	<style>
+		.container_bottom {
+			background: linear-gradient(to right, rgb(255, 91, 2), rgb(255, 221, 0)); /* Replace with your desired gradient colors */
+			height: 246px;
+			width: 1194px;
+            left: calc(50% - 1194px/2);
+			position: relative;
+			border-radius: 40px; /* Adjust the border radius as needed */
+		}
+
+		.line_bottom {
+			width: 1200px;
+			height: 1px;
+			background-color: #ffffff; /* Replace with your desired line color */
+			position: absolute;
+			bottom: 39%; /* Adjust the position of the line vertically as needed */
+			left: 8%;
+			transform: translateY(50%);
+		}
+
+		.words_bottom {
+			position: absolute;
+			bottom: 55%; /* Adjust the position of the words vertically as needed */
+			transform: translateY(-50%);
+			left: 50%;
+			transform: translateX(-50%);
+			text-align: center;
+		}
+
+		.words_bottom span {
+			margin-right: 55px; /* Adjust the distance between words as needed */
+			font-size: 18px; /* Replace with your desired font size */
+			font-family: 'Source Sans Pro';
+			font-style: normal;
+			color: #ffffff; /* Replace with your desired font color */
+		}
+
+		.different-word {
+			position: absolute;
+			bottom: 45%; /* Adjust the position of the different word vertically as needed */
+			left: 190px; /* Adjust the distance of the different word from the leftmost side */
+			transform: translateY(-50%);
+			font-size: 39px; /* Replace with your desired font size */
+			font-family: 'Source Sans Pro';
+			font-style: normal;
+			font-weight: bold;
+			color: #ffffff; /* Replace with your desired font color */
+		}
+	</style>
+</head>
+<body>
+	<div class="container_bottom">
+		<div class="line_bottom"></div>
+		<div class="words_bottom">
+			<span>Explore</span>
+			<span>Create</span>
+			<span>Contact Us</span>
+			<!-- Add more <span> elements for additional words -->
+		</div>
+		<div class="different-word">ConnectO</div>
+	</div>
+</body>
+</html>
