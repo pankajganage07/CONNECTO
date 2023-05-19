@@ -29,8 +29,9 @@ body{
 }
 
 .container1 h1{
-    font-size: 64px;
+    font-size: 74px;
     line-height: 80px;
+    font-weight: 700;
 }
 
 #collaborate {
@@ -54,6 +55,7 @@ body{
     margin: 0%;
     position: relative;
     bottom: 15px;
+    font-size: 34px;
     
     
 }
