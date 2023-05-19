@@ -87,6 +87,11 @@ body{
 
 }
 
+.create_btn:hover{
+    background: #202020;
+    color: #FFFFFF;
+}
+
 .explore_btn{
     width: 177px;
     height: 47px;
@@ -104,6 +109,11 @@ body{
     color: #202020;
 
     border: none;
+}
+
+.explore_btn:hover{
+    background: #202020;
+    color: #FFFFFF;
 }
 
 .mini_container2{
